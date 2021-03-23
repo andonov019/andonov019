@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Project_Light</title>
+    <title>Unity WebGL Player | Project_WebGL</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 600px; height: 960px; background: #000000"></canvas>
-    <script src="Build/project_light_web.loader.js"></script>
+    <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
+    <script src="Build/project_webgl.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/project_light_web.data.gz",
-        frameworkUrl: "Build/project_light_web.framework.js.gz",
-        codeUrl: "Build/project_light_web.wasm.gz",
+        dataUrl: "Build/project_webgl.data.gz",
+        frameworkUrl: "Build/project_webgl.framework.js.gz",
+        codeUrl: "Build/project_webgl.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Andision",
-        productName: "Project_Light",
+        productName: "Project_WebGL",
         productVersion: "0.1a",
       });
     </script>
